@@ -35,6 +35,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        Debug.Log("Aïe ! Je viens de prendre " + damage + " dégâts !");
         if (playerInvulnerable.isInvulnerable && damage < float.MaxValue) return;
 
         playerData.currentHealth -= damage;

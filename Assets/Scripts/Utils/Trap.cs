@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Trap : MonoBehaviour
 {
-    public float damage = 0f;
+    public float damage = 1f;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -21,7 +21,12 @@ public class Trap : MonoBehaviour
     }
 
     private void Damage(GameObject go)
+{
+    PlayerHealth playerHealth = go.GetComponent<PlayerHealth>();
+    
+    if (playerHealth != null)
     {
-        go.GetComponent<PlayerHealth>().TakeDamage(damage);
+        playerHealth.TakeDamage(damage);
     }
+}
 }

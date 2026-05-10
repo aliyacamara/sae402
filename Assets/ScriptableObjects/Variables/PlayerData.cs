@@ -15,4 +15,18 @@ public class PlayerData : ScriptableObject
 
     [Multiline]
     public string DeveloperDescription = "";
+
+    public void Heal(float amount)
+{
+    currentHealth += amount;
+
+    // Sécurité : on ne peut pas avoir plus de vie que le Max
+    if (currentHealth > maxHealth)
+    {
+        currentHealth = maxHealth;
+    }
 }
+
+}
+
+
