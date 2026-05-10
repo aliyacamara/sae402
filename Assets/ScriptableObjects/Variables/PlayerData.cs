@@ -20,7 +20,6 @@ public class PlayerData : ScriptableObject
 {
     currentHealth += amount;
 
-    // Sécurité : on ne peut pas avoir plus de vie que le Max
     if (currentHealth > maxHealth)
     {
         currentHealth = maxHealth;
