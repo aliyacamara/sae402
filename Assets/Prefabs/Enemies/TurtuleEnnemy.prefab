@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 6361526955365654825}
   - component: {fileID: 2014238817450124145}
   - component: {fileID: 5424320168835322652}
-  m_Layer: 0
+  - component: {fileID: -8266860727528343402}
+  m_Layer: 6
   m_Name: TurtuleEnnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -203,3 +204,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Trap
   damage: 1
+--- !u!114 &-8266860727528343402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4269259296520476214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e74ac6451659847a4db480975f8bf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  maxHealth: {fileID: 0}
+  currentHealth: 0
+  spriteRenderer: {fileID: 3287921612640496237}
+  rb: {fileID: 6361526955365654825}
+  animator: {fileID: 2014238817450124145}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  hitColor: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
+  listComponents: []
