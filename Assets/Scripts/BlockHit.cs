@@ -63,7 +63,7 @@ public class BlockHit : MonoBehaviour
  
             if (currentHits == maxHits)
             {
-                sr.color = new Color(1f, 1f, 1f, 0.5f);
+                animator.SetTrigger("BrokenTrigger");
             }
         }
     }
