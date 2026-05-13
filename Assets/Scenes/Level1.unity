@@ -30285,7 +30285,7 @@ MonoBehaviour:
   playerData: {fileID: 11400000, guid: 128a5caa38b25da4b8d554b3e6931d20, type: 2}
   onDebugDeathEvent: {fileID: 11400000, guid: 68cc81557b33a794c96545249fb9ff04, type: 2}
   onPlayerDeath: {fileID: 11400000, guid: e0b8ec73eeeaa0b47ab72ed51288e42c, type: 2}
-  gameOverCanvas: {fileID: 0}
+  gameOverCanvas: {fileID: 1858274624}
   hudPommes: {fileID: 1889306847}
 --- !u!61 &814072432
 BoxCollider2D:
