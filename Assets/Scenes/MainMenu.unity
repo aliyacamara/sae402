@@ -2219,8 +2219,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3430,8 +3430,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "D\xE9velopp\xE9 par :\nAliya CAMARA\nBouchra CHELALI\nOscar ASSOGBA\nJean-Louis
-    DANIELO\n\nDans le cadre de la SAE 4.02 du BUT2 MMI. Merci \xE0 M. Jean-Louis
-    pour ses enseignements."
+    DANIELO\n\nDans le cadre de la SAE 4.02 du BUT2 MMI 2025/2026. \nMerci \xE0 M.
+    DANIELO pour ses enseignements."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 41847911ccadb40a085e0d56191c9983, type: 2}
   m_sharedMaterial: {fileID: -220565168209634293, guid: 41847911ccadb40a085e0d56191c9983, type: 2}
@@ -3458,8 +3458,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

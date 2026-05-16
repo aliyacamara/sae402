@@ -1,0 +1,12 @@
+Lien du git : https://github.com/aliyacamara/sae402.git
+
+Modifications au choix :
+
+* Ajout d'une musique.
+
+* Animation des checkpoints
+
+* Mise en place des plateformes qui se déplacent automatiquement sur un chemin balisé via des points de cheminement.
+
+* Mise en place d'un piège parmi ceux présents dans le dossier sprites/platformer/Traps (Fire).
+
